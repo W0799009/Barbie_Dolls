@@ -36,3 +36,11 @@ Decided to start scafolding.
 2022-10-13 1644
 Completed the Scafolding.
 Saved the changes and Commited to git.
+
+
+Added Add-Migration InitialCreate in PMC
+Used following Line in PMC
+Update-Database -Context ApplicationDbContext
+Completd Migration.
+Completed Part-4 
+Saved readme file and commite to github.
