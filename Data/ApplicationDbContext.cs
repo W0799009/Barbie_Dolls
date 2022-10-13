@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Barbie_Dolls.Models;
 
 namespace Barbie_Dolls.Data
 {
@@ -12,5 +13,6 @@ namespace Barbie_Dolls.Data
             : base(options)
         {
         }
+        public DbSet<Barbie_Dolls.Models.Doll> Doll { get; set; }
     }
 }

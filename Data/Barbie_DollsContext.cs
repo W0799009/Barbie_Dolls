@@ -14,6 +14,6 @@ namespace Barbie_Dolls.Data
         { 
         }
 
-        public DbSet<Doll> Dolls { get; set;  }
+        public DbSet<Doll> Doll { get; set;  }
     }
 }
