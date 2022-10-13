@@ -19,3 +19,8 @@ Changed the version of all nuget Packages.
 commite the code and push to github.
 Also I forgot to add namespace in Dolls.cs so I added it 
 Again commite it to github.
+
+2022-10-13 0130
+Made a new class called Barbie_dollsContext.cs indata folder
+Also I changed the name of Dolls.cs file to doll.cs.
+Commite to Git.

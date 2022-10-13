@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Barbie_Dolls.Models
 {
-    public class Dolls
+    public class Doll
     {
         public int ID { get; set; }
         public string Name { get; set; }
