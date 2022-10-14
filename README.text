@@ -123,33 +123,33 @@ Deleted all the records From the database to get the rating field.
 Then clossed my application as well as visual studio.
 Again oppened it and update database and then I got the expected result and get the rating field.
 
-2022-10-13 0118
+2022-10-14 0118
 Starting Part-9
 
-2022-10-13 0159
+2022-10-14 0159
 Added validations accordingly in every field.
 Saved and Commited in git.
 Completed Part-9
 
-2022-10-13 0350
+2022-10-14 0350
 Completed part 10
 Checked all files and perform all possible tasks on appliactaion.
 Application successfully created.
 commite to github.
 
-2022-10-13 0359
+2022-10-14 0359
 Adding new Razor View Page Called "About Us" in Home Folder.
 Updated Layout.cshtml file.
 Updated HomeController.cs file for showing AboutUs Page.
 Commited to git.
 Getting sleepy. Need Sleep. Good Night.
 
-2022-10-13 12:20
+2022-10-14 12:20
 Good morning.
 Contineuing with css for page.
 Got so many errors in adding images folde and getting image.
 
-2022-10-13 1439
+2022-10-14 1439
 Found the Actual problem.
 I firstly added folder of images in my local c drive.
 The oppened the local folder in visual studio 2019 and then commit that to git so that i can get that images folder in my get reposetory.
@@ -161,8 +161,14 @@ Finally now I am moving forword to add content in my about us page.
 But sill I am stuck with the css problems.
 Commite to git.
 
-2022-10-13 1447
+2022-10-14 1447
 Taking Break for lunch.
+
+2022-10-14 1703
+Back to work.
+Started adding content in About us Page.
+Commit to Git.
+Added Company Info
 
 
 
