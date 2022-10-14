@@ -91,5 +91,9 @@ want to search by material instead of name...
 
 2022-10-22 2330
 Completed search 
-Completed part 7
 Commit to git.
+
+2022-10-22 2350
+Started adding Dropdown menu for material and search for name of doll
+Made new class in models named "MovieGenreViewModel.cs".
+save the changes and commited to git
