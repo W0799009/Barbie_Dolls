@@ -99,7 +99,7 @@ Made new class in models named "MovieGenreViewModel.cs".
 save the changes and commited to git.
 Updated DollControllers.cs.
 
-2022-10-13 2420
+2022-10-14 2420
 Found mistake in Readme file 
 I by mistakely added wronge date 22 instead of 13.
 Also fund some errors in getting all error cleare for search in selection list
@@ -107,7 +107,7 @@ Finally completed all and git commite
 yesssss, Completed part 7 
 checked app and it worked successfully.
 
-2022-10-13 2425
+2022-10-14 2425
 Starting part 8.
 Added new field 
 updated Dolls.cs
@@ -118,5 +118,12 @@ Completed Part- 8.
 Added comands in PMC.
 Commited changes to git.
 
+2022-10-14 0110
+Deleted all the records From the database to get the rating field.
+Then clossed my application as well as visual studio.
+Again oppened it and update database and then I got the expected result and get the rating field.
+
+2022-10-13 0118
+Starting Part-9
 
 
