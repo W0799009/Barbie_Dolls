@@ -44,3 +44,13 @@ Update-Database -Context ApplicationDbContext
 Completd Migration.
 Completed Part-4 
 Saved readme file and commite to github.
+
+2022-10-13 1659
+Started Part 5
+
+2022-10-13 2208
+Started part 5 again
+Decided to write seeddata.
+First of all, I wrote data in word first of all
+Then coppied all data in seed data file.
+saved seed-data and commited to git.

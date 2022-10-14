@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Barbie_Dolls.Models;
 
 namespace Barbie_Dolls
 {
@@ -34,6 +35,9 @@ namespace Barbie_Dolls
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<Barbie_DollsContext>(options =>
+    options.UseSqlServer(Configuration.GetConnectionString("Barbie_dollContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
