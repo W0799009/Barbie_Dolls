@@ -34,10 +34,11 @@ namespace Barbie_Dolls
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+
             services.AddRazorPages();
 
             services.AddDbContext<Barbie_DollsContext>(options =>
-    options.UseSqlServer(Configuration.GetConnectionString("Barbie_dollContext")));
+    options.UseSqlServer(Configuration.GetConnectionString("Barbie_DollsContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
