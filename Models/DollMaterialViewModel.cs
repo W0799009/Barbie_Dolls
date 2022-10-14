@@ -8,7 +8,7 @@ namespace Barbie_Dolls.Models
 {
     public class DollMaterialViewModel
     {
-        public List<Doll> Movies { get; set; }
+        public List<Doll> Dolls{ get; set; }
         public SelectList Material{ get; set; }
         public string DollMaterial{ get; set; }
         public string SearchString { get; set; }

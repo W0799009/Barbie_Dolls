@@ -20,17 +20,33 @@ namespace Barbie_Dolls.Controllers
         }
 
         // GET: Dolls
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string DollMaterial, string searchString)
         {
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Doll
+                                            orderby m.Material
+                                            select m.Material;
+
             var Dolls = from m in _context.Doll
                          select m;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
-                Dolls = Dolls.Where(s => s.Material.Contains(searchString));
+                Dolls = Dolls.Where(s => s.Name.Contains(searchString));
             }
 
-            return View(await Dolls.ToListAsync());
+            if (!string.IsNullOrEmpty(DollMaterial))
+            {
+                Dolls = Dolls.Where(x => x.Material == DollMaterial);
+            }
+
+            var DollMaterialVM = new DollMaterialViewModel
+            {
+                Material = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Dolls = await Dolls.ToListAsync()
+            };
+
+            return View(DollMaterialVM);
         }
 
         [HttpPost]

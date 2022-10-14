@@ -68,32 +68,40 @@ Checked the app and database on web app.
 Completed the part 5.
 Commited to git.
 
-2022-10-22 2236
+2022-10-13 2236
 Started Part-6.
 Changed file Doll.cs.
 
 
-2022-10-22 2256
+2022-10-13 2256
 check all the parts in several files.
 Check the application and edit it.
 Completed part 6.
 Commite in the git.
 Starting part 7.
 
-2022-10-22 2319
+2022-10-13 2319
 Added search in Index.cshtml as text box for searching Name of a doll
 Changed code in Startup.cs file
 check the app.
 
-2022-10-22 2322
+2022-10-13 2322
 Decided to change the field of search...
 want to search by material instead of name...
 
-2022-10-22 2330
+2022-10-13 2330
 Completed search 
 Commit to git.
 
-2022-10-22 2350
+2022-10-13 2350
 Started adding Dropdown menu for material and search for name of doll
 Made new class in models named "MovieGenreViewModel.cs".
-save the changes and commited to git
+save the changes and commited to git.
+Updated DollControllers.cs.
+
+2022-10-13 2420
+Found mistake in Readme file 
+I by mistakely added wronge date 22 instead of 13.
+Also fund some errors in getting all error cleare for search in selection list
+Finally completed all and git commite
+
