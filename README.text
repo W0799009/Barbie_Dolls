@@ -78,4 +78,13 @@ check all the parts in several files.
 Check the application and edit it.
 Completed part 6.
 Commite in the git.
+Starting part 7.
 
+2022-10-22 2319
+Added search in Index.cshtml as text box for searching Name of a doll
+Changed code in Startup.cs file
+check the app.
+
+2022-10-22 2322
+Decided to change the field of search...
+want to search by material instead of name...

@@ -20,9 +20,23 @@ namespace Barbie_Dolls.Controllers
         }
 
         // GET: Dolls
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Doll.ToListAsync());
+            var Dolls = from m in _context.Doll
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                Dolls = Dolls.Where(s => s.Material.Contains(searchString));
+            }
+
+            return View(await Dolls.ToListAsync());
+        }
+
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
         }
 
         // GET: Dolls/Details/5
