@@ -137,3 +137,9 @@ Checked all files and perform all possible tasks on appliactaion.
 Application successfully created.
 commite to github.
 
+2022-10-13 0359
+Adding new Razor View Page Called "About Us" in Home Folder.
+Updated Layout.cshtml file.
+Updated HomeController.cs file for showing AboutUs Page.
+Commited to git.
+
