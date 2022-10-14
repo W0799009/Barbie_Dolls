@@ -84,7 +84,7 @@ namespace Barbie_Dolls.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Name,Material,Height,ReleaseDate,SetTheme,AgeGroup,Price")] Doll doll)
+        public async Task<IActionResult> Create([Bind("ID,Name,Material,Height,ReleaseDate,SetTheme,AgeGroup,Price,Rating")] Doll doll)
         {
             if (ModelState.IsValid)
             {
@@ -116,7 +116,7 @@ namespace Barbie_Dolls.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Material,Height,ReleaseDate,SetTheme,AgeGroup,Price")] Doll doll)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Material,Height,ReleaseDate,SetTheme,AgeGroup,Price,Rating")] Doll doll)
         {
             if (id != doll.ID)
             {

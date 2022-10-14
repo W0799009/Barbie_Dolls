@@ -29,7 +29,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2022-1-12"),
                         SetTheme = "House",
                         AgeGroup = 3,
-                        Price = 3.49M
+                        Price = 3.49M,
+                        Rating = 1
                     },
 
                     new Doll
@@ -40,7 +41,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2019-5-29"),
                         SetTheme = "House",
                         AgeGroup = 3,
-                        Price = 6.99M
+                        Price = 6.99M,
+                        Rating = 4
                     },
 
                     new Doll
@@ -51,7 +53,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2015-6-21"),
                         SetTheme = "Horror",
                         AgeGroup = 5,
-                        Price = 20.39M
+                        Price = 20.39M,
+                        Rating = 2
                     },
 
                     new Doll
@@ -62,7 +65,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2011-8-10"),
                         SetTheme = "Horror",
                         AgeGroup = 5,
-                        Price = 5.10M
+                        Price = 5.10M,
+                        Rating = 4
                     },
 
                     new Doll
@@ -73,7 +77,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2021-6-1"),
                         SetTheme = "Fashion",
                         AgeGroup = 1,
-                        Price = 15.99M
+                        Price = 15.99M,
+                        Rating = 3
                     },
 
                     new Doll
@@ -84,7 +89,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2010-3-19"),
                         SetTheme = "fun set",
                         AgeGroup = 3,
-                        Price = 10.00M
+                        Price = 10.00M,
+                        Rating = 5
                     },
 
                     new Doll
@@ -95,7 +101,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2015-3-18"),
                         SetTheme = "Historic",
                         AgeGroup = 1,
-                        Price = 4.65M
+                        Price = 4.65M,
+                        Rating = 5
                     },
 
                     new Doll
@@ -106,7 +113,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2018-06-07"),
                         SetTheme = "Animated Set",
                         AgeGroup = 1,
-                        Price = 10.33M
+                        Price = 10.33M,
+                        Rating = 3
                     },
 
                     new Doll
@@ -117,7 +125,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2019-1-1"),
                         SetTheme = "Animated Set",
                         AgeGroup = 1,
-                        Price = 5.33M
+                        Price = 5.33M,
+                        Rating = 5
                     },
 
                     new Doll
@@ -128,7 +137,8 @@ namespace Barbie_Dolls.Models
                         ReleaseDate = DateTime.Parse("2011-8-10"),
                         SetTheme = "Horror",
                         AgeGroup = 3,
-                        Price = 17.99M
+                        Price = 17.99M,
+                        Rating = 3
                     }
                 );
                 context.SaveChanges();
