@@ -7,6 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\chucky doll.jpeg" />
+    <None Include="wwwroot\images\Clothespin Doll.jpg" />
+    <None Include="wwwroot\images\Creepy doll.jpg" />
+    <None Include="wwwroot\images\Dancing lady.jpeg" />
+    <None Include="wwwroot\images\Frozen doll.jpg" />
+    <None Include="wwwroot\images\halloween-doll.jpg" />
+    <None Include="wwwroot\images\Knitting doll.jpeg" />
+    <None Include="wwwroot\images\Moana pop doll.jpg" />
+    <None Include="wwwroot\images\Moana pop doll.png" />
+    <None Include="wwwroot\images\rag-doll.jpg" />
+    <None Include="wwwroot\images\Tanaji Doll.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.16" />

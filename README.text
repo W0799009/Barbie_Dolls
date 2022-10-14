@@ -147,4 +147,22 @@ Getting sleepy. Need Sleep. Good Night.
 2022-10-13 12:20
 Good morning.
 Contineuing with css for page.
+Got so many errors in adding images folde and getting image.
+
+2022-10-13 1439
+Found the Actual problem.
+I firstly added folder of images in my local c drive.
+The oppened the local folder in visual studio 2019 and then commit that to git so that i can get that images folder in my get reposetory.
+Then i clone reposetory and then got error again .
+As i added the image folder in Main folder I was not able to get image on my webpage, But I can see the alternative text of an image.
+Then after some research I found that The folder needs to be in WWWroot directory.
+And then I Moved the image folder in it and got the image on my webpage.
+Finally now I am moving forword to add content in my about us page.
+But sill I am stuck with the css problems.
+Commite to git.
+
+2022-10-13 1447
+
+
+
 
